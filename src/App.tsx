@@ -1,4 +1,3 @@
-import "./App.css";
 import DigitalCounter from "./components/DigitalCounter";
 
 function App() {
