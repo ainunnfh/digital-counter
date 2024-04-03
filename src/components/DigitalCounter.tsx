@@ -25,7 +25,7 @@ const DigitalCounter = () => {
     setCount(count + 1);
   };
   return (
-    <div className="bg-slate-300 h-screen content-center">
+    <div className="bg-slate-300 h-screen w-screen flex flex-col justify-center items-center">
       <div>
         <h1 className="text-8xl font-bold text-center">{count}</h1>
         <h3 className="text-2xl font-bold text-center">
